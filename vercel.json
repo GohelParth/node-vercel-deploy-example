@@ -1,11 +1,8 @@
 {
     "rewrites": [
         {
-            "source": "index.js",
-            "destination": "index.js",
-            "method": [
-                "GET"
-            ]
+            "source": "/index.js",
+            "destination": "/index.js"
         }
     ]
 }
