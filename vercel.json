@@ -7,5 +7,5 @@
         }
     ],
     "src": "/(.*)",
-    "dest": "index.js"
+    "destination": "index.js"
 }
