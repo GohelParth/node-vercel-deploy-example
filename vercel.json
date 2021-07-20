@@ -6,6 +6,5 @@
             "use": "@vercel/node"
         }
     ],
-    "source": "/(.*)",
-    "destination": "/"
+    "source": "/(.*)"
 }
