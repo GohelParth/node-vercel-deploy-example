@@ -1,8 +1,8 @@
 {
     "rewrites": [
         {
-            "source": "index.js",
-            "destination": "/"
+            "src": "index.js",
+            "use": "@now/node-server"
         }
     ]
 }
