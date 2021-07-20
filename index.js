@@ -3,8 +3,8 @@ const app = express();
 
 const port = 5000;
 
-app.get('/', (req, res) => {
-    res.send("hello from server")
+app.get('/', function (req, res) {
+    res.send("Hello From Server")
 })
 
 // Listen on port 5000
