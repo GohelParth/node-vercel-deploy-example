@@ -3,7 +3,7 @@ const app = express();
 
 const port = 5000;
 
-app.get('/', function (req, res) {
+app.get('/home', function (req, res) {
     res.send("Hello From Server")
 })
 
