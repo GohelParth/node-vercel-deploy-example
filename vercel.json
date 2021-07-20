@@ -2,7 +2,10 @@
     "rewrites": [
         {
             "source": "index.js",
-            "destination": "@now/node-server"
+            "destination": "index.js",
+            "method": [
+                "GET"
+            ]
         }
     ]
 }
