@@ -5,6 +5,5 @@
             "source": "index.js",
             "use": "@vercel/node"
         }
-    ],
-    "source": "/(.*)"
+    ]
 }
