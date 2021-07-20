@@ -1,10 +1,14 @@
-const app = require('express')();
-const route = app.router();
+const express = require("express");
+const app = express();
 
-app.use(app.json());
+const port = 5000;
 
-app.get('/', function (req, res) {
-    res.send("home route !")
+app.get('/', (req, res) => {
+    res.send("hello from server")
 })
 
-module.exports = app;
+// Listen on port 5000
+app.listen(port, () => {
+    console.log(`Server is booming on port 5000
+Visit http://localhost:5000`);
+});
